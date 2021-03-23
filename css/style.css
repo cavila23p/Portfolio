@@ -81,8 +81,7 @@ hr::after {
 
 .header h1 {  
   position: absolute;
-  margin: auto;
-  position: absolute;
+  margin: auto;  
   top: 150px; left: 0; bottom: 0; right: 0;
   font-size: 80px; 
   font-family: 'Sacramento', cursive;
@@ -344,7 +343,8 @@ hr::after {
   }
 
   .header h1 {
-    font-size: 60px;
+    font-size: 50px;
+    top: 100px; left: 0; bottom: 0; right: 0;
   }
   .technologies h1,
   .portfolio h1,
