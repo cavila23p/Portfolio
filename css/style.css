@@ -356,8 +356,19 @@ hr::after {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
   }
 
+  .work .flex {
+    justify-content: center;    
+  }
+
+  .work .flex .w-col-1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .footer .flex {
     flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
   }
   
 }
