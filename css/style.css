@@ -243,6 +243,10 @@ hr::after {
   color: var(--text-light);
 }
 
+.footer p {
+  margin-top: 50px;
+}
+
 
 /*****************
  * MEDIA QUERIES *
